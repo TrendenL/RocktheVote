@@ -1,0 +1,56 @@
+.profile-container {
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.profile h1 {
+    font-family: 'Lobster', cursive;
+    color: #333;
+    font-size: 4rem;
+}
+
+.username {
+    text-transform: capitalize;
+}
+
+.profile-nav {
+    margin: 50px;
+}
+
+.profile-nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-nav li {
+    background-color: #3452eb;
+    color: #fff;
+    margin: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.711) 0px 5px 15px;
+}
+
+.profile-nav li:hover {
+    cursor: pointer;
+    background-color: #6479e3;
+    font-size: 1.1rem;
+    transition: 0.20s;
+    transition-timing-function: ease-in;
+}
+
+.profile-nav li a {
+    text-decoration: none;
+}
+
+.profile-nav li a:visited {
+    color: #fff;
+}
+

@@ -1,0 +1,107 @@
+/* ISSUE FORM CSS */
+
+.issue-head {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.issue-head h1 {
+    font-family: 'Lobster', cursive;
+}
+
+.issue-post {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.issue-form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.issue-form h3 {
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.issue-form p {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #999;
+}
+
+.issue-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.issue-form textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+
+.issue-form button {
+    width: 20%;
+    padding: 10px;
+    background-color: #3452eb;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.issue-form button:hover {
+    cursor: pointer;
+    background-color: #6479e3;
+}
+
+.issue-form button:active {
+    background-color: #3452eb;
+}
+
+/* ISSUE CSS */
+
+.issue-list {
+    width: 800px;
+}
+
+.issue {
+    background-color: #3452eb;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.711) 0px 5px 15px;
+}
+
+.issue h1 {
+    font-family: 'Lobster', cursive;
+    color: #fff;
+}
+
+/* info section */
+.info-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}

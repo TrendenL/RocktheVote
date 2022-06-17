@@ -1,0 +1,14 @@
+.info-container {
+    margin: 0 auto;
+    width: 800px;
+}
+
+.info-issue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-issue h1 {
+    text-align: left;
+}
